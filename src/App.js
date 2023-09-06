@@ -32,12 +32,12 @@ function App() {
         <h2 className="skillHead">Skills of mine!</h2>
       <skills className = "skillContainer">
           <SkillCard skillName = "Python Programming" imageURL = {python} skillDetail = "I am a pythonista, i am familiar with topics like Tkinter, APIs, Web scraping and emailing."/>
-          <SkillCard skillName = "Javascript ES6" imageURL = {js} skillDetail = "I am a pythonista, i am familiar with topics like Tkinter, APIs, Web scraping and emailing."/>
-          <SkillCard skillName = "Frontend Development" imageURL = {frontend} skillDetail = "I am a pythonista, i am familiar with topics like Tkinter, APIs, Web scraping and emailing."/>
-          <SkillCard skillName = "Graphic design" imageURL = {graphic} skillDetail = "I am a pythonista, i am familiar with topics like Tkinter, APIs, Web scraping and emailing."/>
-          <SkillCard skillName = "React JS" imageURL = {react} skillDetail = "I am a pythonista, i am familiar with topics like Tkinter, APIs, Web scraping and emailing."/>
-          <SkillCard skillName = "Java Programming" imageURL = {java} skillDetail = "I am a pythonista, i am familiar with topics like Tkinter, APIs, Web scraping and emailing."/>
-          <SkillCard skillName = "SQLite" imageURL = {database} skillDetail = "I am a pythonista, i am familiar with topics like Tkinter, APIs, Web scraping and emailing."/>
+          <SkillCard skillName = "Javascript ES6" imageURL = {js} skillDetail = "I am familiar with Javascript and DOM manipulation using it."/>
+          <SkillCard skillName = "Frontend Development" imageURL = {frontend} skillDetail = "I have also built projects of frontend development using HTML+CSS+JS."/>
+          <SkillCard skillName = "Graphic design" imageURL = {graphic} skillDetail = "I practice graphic designing and concepts on softwares like Figma, Canva, and Adobe Illustrator."/>
+          <SkillCard skillName = "React JS" imageURL = {react} skillDetail = "I am a beginner at React JS and this portfolio website is made with react itself."/>
+          <SkillCard skillName = "Java Programming" imageURL = {java} skillDetail = "I practice JAVA for DSA and object orient programming."/>
+          <SkillCard skillName = "SQLite" imageURL = {database} skillDetail = "I have learnt the basics of DBMS using SQLite and implemented with python."/>
       </skills>
         {/*<SkillCard/>*/}
       <hr />
