@@ -1,0 +1,50 @@
+import logo from './logo.svg';
+import './App.css';
+import Navbar from './Components/Navbar';
+import AboutMe from './Components/AboutMe';
+import Home from './Components/Home';
+import Contacts from './Components/Contacts';
+import Footer from './Components/Footer'
+// import Skills from './Components/Skills'
+import SkillCard from "./Components/SkillCard";
+
+// import github from "./Components/github.png"
+import frontend from "./Components/images/coding.png"
+import graphic from "./Components/images/paint.png"
+import java from "./Components/images/java.png"
+import python from "./Components/images/python.png"
+import js from "./Components/images/js.png"
+import react from "./Components/images/structure.png"
+import database from "./Components/images/database.png"
+
+function App() {
+
+  const app_style = {
+    backgroundColor: "#352F44",
+  }
+
+  return (
+    <div className="App" style={app_style}>
+      {/*<Navbar />*/}
+      <Home />
+      <AboutMe />
+      <hr />
+        <h2 className="skillHead">Skills of mine!</h2>
+      <skills className = "skillContainer">
+          <SkillCard skillName = "Python Programming" imageURL = {python} skillDetail = "I am a pythonista, i am familiar with topics like Tkinter, APIs, Web scraping and emailing."/>
+          <SkillCard skillName = "Javascript ES6" imageURL = {js} skillDetail = "I am a pythonista, i am familiar with topics like Tkinter, APIs, Web scraping and emailing."/>
+          <SkillCard skillName = "Frontend Development" imageURL = {frontend} skillDetail = "I am a pythonista, i am familiar with topics like Tkinter, APIs, Web scraping and emailing."/>
+          <SkillCard skillName = "Graphic design" imageURL = {graphic} skillDetail = "I am a pythonista, i am familiar with topics like Tkinter, APIs, Web scraping and emailing."/>
+          <SkillCard skillName = "React JS" imageURL = {react} skillDetail = "I am a pythonista, i am familiar with topics like Tkinter, APIs, Web scraping and emailing."/>
+          <SkillCard skillName = "Java Programming" imageURL = {java} skillDetail = "I am a pythonista, i am familiar with topics like Tkinter, APIs, Web scraping and emailing."/>
+          <SkillCard skillName = "SQLite" imageURL = {database} skillDetail = "I am a pythonista, i am familiar with topics like Tkinter, APIs, Web scraping and emailing."/>
+      </skills>
+        {/*<SkillCard/>*/}
+      <hr />
+      <Contacts />
+      <Footer />
+    </div>
+  );
+}
+
+export default App;

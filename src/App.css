@@ -1,0 +1,227 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.skillHead {
+  color: white;
+  margin-top: 50px;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.App hr {
+  width: 100px;
+  border-top: dotted 5px;
+  border-bottom: none;
+  /* color: red; */
+  color: white;
+}
+
+/* -------------------------------------------NAVBAR */
+
+.nav_btns{
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.navbarr a{
+  text-decoration: none;
+  color: white;
+  margin: 10px;
+  font-weight: bold;
+}
+
+#contact{
+  /* float: right; */
+  margin-left: auto;
+  border: 2px solid white;
+  padding: 5px;
+  border-radius: 8px;
+  font-weight: normal;
+
+}
+
+/* ------------------------------------------------about */
+
+.about{
+  /* margin-bottom: 50px; */
+  /*background-color: #EEE0C9;*/
+}
+
+.about img{
+  width: 300px;
+  border-radius: 1000px;
+  border: 3px solid white;
+  padding: 5px;
+  /* margin-right: 20px; */
+}
+
+.about h4 {
+  /* width : 40vw; */
+  text-align: center;
+}
+
+.aboutContainer{
+  padding: 20px;
+  margin-bottom: 50px;
+}
+
+/* -------------------------------------------------home */
+
+.home{
+  /* margin: 0px; */
+  background-color: #EEE0C9;
+  background-image: url("Components/images/background.png");
+  background-size:cover;
+}
+
+.home h2 {
+  margin: 0px;
+}
+
+.home h1 {
+  margin: 0px;
+}
+
+.home div hr {
+  width: 100px;
+  border-top: dotted 3px;
+  border-bottom: none;
+  color: black;
+}
+
+.rightt {
+  width: 100px;
+  height: 100px;
+}
+
+.leftt {
+  width: 100px;
+  height: 100px;
+}
+
+.links{
+  display: flex;
+  text-align: center;
+}
+
+.linksContainer{
+  display: flex;
+  justify-content: center;
+}
+
+.links a{
+  text-align: center;
+  text-decoration: none;
+  margin-right: 20px;
+  margin-left: 20px;
+  font-weight: bold;
+  color: #6170fb;
+}
+
+.links a:hover{
+  color: black;
+  /*text-decoration: underline;*/
+}
+
+@media only screen and (max-width: 600px) {
+  .links a{
+      display: block;
+  }
+  .links{
+    display: block;
+  }
+}
+
+
+/* -------------------------------------------------contacts */
+
+.concard {
+  /*border: 2px solid white;*/
+  padding: 20px;
+  margin: 20px;
+  border-radius: 20px;
+  flex-wrap:inherit;
+  margin-top: 50px;
+  color: white;
+  width: 200px;
+}
+
+.contacts{
+  background-color: #952323;
+  display: flex;
+  justify-content: center;
+  align-items:start;
+}
+
+.contacts hr {
+  width: 100px;
+  border-top: dotted 5px;
+  border-bottom: none;
+  /* background-color: #952323; */
+  margin: 0px;
+  border-left: none;
+  border-right: none;
+  color: white;
+}
+
+.contacts_container{
+  margin-top: 50px;
+}
+
+.contacts_container h2{
+  color: white;
+}
+
+.contacts_imgs{
+  width: 100px;
+}
+
+/*---------------------------------------------skillcard*/
+
+.skillContainer{
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-wrap: wrap;
+}
+
+.skillCard{
+  border : 2px solid white;
+  border-radius: 20px;
+  width: 200px;
+  margin: 20px;
+  padding: 20px;
+  color: white;
+}
+
+.skillCard img {
+  width: 100px;
+}
+
+
+/* ------------------------------------------------ */
+
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
